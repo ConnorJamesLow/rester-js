@@ -1,5 +1,3 @@
-import RESTfulClient from "./RESTful";
+import API from "./RESTful";
 
-export default {
-  RESTfulClient
-};
+export const RESTfulClient = API;
